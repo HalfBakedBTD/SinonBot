@@ -40,4 +40,4 @@ bot.on("message", async message => {
   if(commandfile) commandfile.run(bot,message,args);
 });
 
-client.token(process.env.token);
+Client.login(process.env.BOT_TOKEN);
